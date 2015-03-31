@@ -14,6 +14,10 @@
 		7FF80D8F1ACB0257003DD256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF80D8E1ACB0257003DD256 /* Images.xcassets */; };
 		7FF80D921ACB0257003DD256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF80D901ACB0257003DD256 /* LaunchScreen.xib */; };
 		7FF80D9E1ACB0257003DD256 /* babyCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF80D9D1ACB0257003DD256 /* babyCareTests.swift */; };
+		7FF80DAB1ACB02C1003DD256 /* BigGear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF80DA81ACB02C1003DD256 /* BigGear.swift */; };
+		7FF80DAC1ACB02C1003DD256 /* MainGear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF80DA91ACB02C1003DD256 /* MainGear.swift */; };
+		7FF80DAD1ACB02C1003DD256 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF80DAA1ACB02C1003DD256 /* ShadowView.swift */; };
+		7FF80DAF1ACB036B003DD256 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF80DAE1ACB036B003DD256 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		7FF80D971ACB0257003DD256 /* babyCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = babyCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF80D9C1ACB0257003DD256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FF80D9D1ACB0257003DD256 /* babyCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babyCareTests.swift; sourceTree = "<group>"; };
+		7FF80DA81ACB02C1003DD256 /* BigGear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigGear.swift; sourceTree = "<group>"; };
+		7FF80DA91ACB02C1003DD256 /* MainGear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGear.swift; sourceTree = "<group>"; };
+		7FF80DAA1ACB02C1003DD256 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		7FF80DAE1ACB036B003DD256 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		7FF80D811ACB0257003DD256 /* babyCare */ = {
 			isa = PBXGroup;
 			children = (
+				7FF80DA71ACB02C1003DD256 /* Views */,
 				7FF80D841ACB0257003DD256 /* AppDelegate.swift */,
 				7FF80D891ACB0257003DD256 /* ViewController.swift */,
 				7FF80D8B1ACB0257003DD256 /* Main.storyboard */,
@@ -86,6 +95,7 @@
 				7FF80D901ACB0257003DD256 /* LaunchScreen.xib */,
 				7FF80D861ACB0257003DD256 /* babyCare.xcdatamodeld */,
 				7FF80D821ACB0257003DD256 /* Supporting Files */,
+				7FF80DAE1ACB036B003DD256 /* MainTableViewController.swift */,
 			);
 			path = babyCare;
 			sourceTree = "<group>";
@@ -113,6 +123,16 @@
 				7FF80D9C1ACB0257003DD256 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FF80DA71ACB02C1003DD256 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FF80DA81ACB02C1003DD256 /* BigGear.swift */,
+				7FF80DA91ACB02C1003DD256 /* MainGear.swift */,
+				7FF80DAA1ACB02C1003DD256 /* ShadowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF80DAD1ACB02C1003DD256 /* ShadowView.swift in Sources */,
 				7FF80D8A1ACB0257003DD256 /* ViewController.swift in Sources */,
+				7FF80DAB1ACB02C1003DD256 /* BigGear.swift in Sources */,
 				7FF80D881ACB0257003DD256 /* babyCare.xcdatamodeld in Sources */,
 				7FF80D851ACB0257003DD256 /* AppDelegate.swift in Sources */,
+				7FF80DAC1ACB02C1003DD256 /* MainGear.swift in Sources */,
+				7FF80DAF1ACB036B003DD256 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
